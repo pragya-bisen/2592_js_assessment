@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(242, 241, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+h2 {
+  color: rgb(54, 137, 187);
+  line-height: 40px;
+}
+p {
+  font-size: 13px;
+  color: grey;
+}
+
+.box {
+  width: 50vw;
+  height: 80vh;
+}
+.inputdiv {
+  height: 8vh;
+  background-color: white;
+  padding: 2vh 2vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px 3px 1px gainsboro;
+}
+.label {
+  display: flex;
+}
+.label h5 {
+  color: rgb(54, 137, 187);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid rgb(54, 137, 187);
+}
+img {
+  width: 18px;
+  filter: opacity(0.6);
+}
+.input {
+  height: 3vh;
+  border: none;
+  outline: none;
+  outline-style: none;
+}
+.field {
+  margin-left: 3vw;
+}
+textarea {
+  width: inherit;
+  border: none;
+  padding-top: 15px;
+}
+.date {
+  height: 3vh;
+  outline: none;
+}
+.inputdiv .field .select {
+  width: inherit;
+  background-color: white;
+  border: none;
+}
+
+.inputdiv2 {
+  height: 7vh;
+  background-color: white;
+  padding: 2vh 2vw;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px 3px 1px gainsboro;
+}
+.label2 {
+  display: flex;
+  margin-right: 40px;
+}
+.label2 h5 {
+  color: rgb(54, 137, 187);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid rgb(54, 137, 187);
+}
+.label2 img {
+  width: 18px;
+  filter: opacity(0.6);
+}
+input[type="date"] {
+  align-items: center;
+  display: inline-flex;
+  font-family: monospace;
+  overflow: hidden;
+  padding: 5px;
+  width: inherit;
+  border: none;
+  outline: none;
+  -webkit-padding-start: 1px;
+}
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 6px 12px; */
+  cursor: pointer;
+  background-color: rgb(54, 137, 187);
+}
+.custom-file-upload img {
+  width: 25px;
+  filter: opacity(0.6);
+}
+.footer {
+  height: 5vh;
+  text-align: right;
+  margin-top: 50px;
+}
+.footer .next {
+  padding: 10px 15px;
+  background-color: rgb(54, 137, 187);
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+/* .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 0.2em;
+  padding: 10.5px 10px;
+} */
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
